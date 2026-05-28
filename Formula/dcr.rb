@@ -1,27 +1,27 @@
 class Dcr < Formula
   desc "Cargo-like utility to manage C/C++ projects"
   homepage "https://dcr.dexoron.su"
-  version "0.6.8"
+  version "0.6.9"
 
   on_macos do
     on_intel do
       url "https://github.com/dexoron/dcr/releases/download/v#{version}/dcr-x86_64-apple-darwin-#{version}"
-      sha256 "b19fcab763b98e8efdc36bf6be6ac3917e1da59550580d7c40aff95cb96056ff"
+      sha256 "583ddb376029c32126ddfdf258d0a672394a6780b039963150553b88d11fc843"
     end
     on_arm do
       url "https://github.com/dexoron/dcr/releases/download/v#{version}/dcr-aarch64-apple-darwin-#{version}"
-      sha256 "db3666a42c5ab9d66dbc7c23410529472e24234fbc46205a339ac2ada2343993"
+      sha256 "33105c515c5d73f6a392b4a898375a6a7a3922fa62c261670a7fad952d3719d8"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/dexoron/dcr/releases/download/v#{version}/dcr-x86_64-unknown-linux-gnu-#{version}"
-      sha256 "4a606c1df82767da0a71afbd820e90d6690fe45ede37a2ef60de8b51b8538874"
+      sha256 "2ad2315a01907a5baf4a5e655ef17d9510136b7abfa0525b455a6381ef5b1458"
     end
     on_arm do
       url "https://github.com/dexoron/dcr/releases/download/v#{version}/dcr-aarch64-unknown-linux-gnu-#{version}"
-      sha256 "57a9d46adf8ac412fee3069a80fd50e94b478a0273f4f2ac618a654adde94a71"
+      sha256 "c820ef3ef085a56da2354efb9cb591ae9e384d4851e5fc058b2665f6e2f90ac9"
     end
   end
 
