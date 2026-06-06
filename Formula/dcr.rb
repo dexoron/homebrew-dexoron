@@ -31,7 +31,7 @@ class Dcr < Formula
 
   resource "man-pages" do
     url "https://github.com/dexoron/dcr/releases/download/v#{version}/dcr-man-pages-#{version}.tar.gz"
-    sha256 "1384d67340a648056d9e37a9e5e41ece56b807a8ad630df84e0303bcb18d95bc"
+    sha256 "10d2bd0e45560bea84d18593fdbc558516a0185c19928eef547c3ba51fc137cb"
   end
 
   def install
