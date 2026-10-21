@@ -1,35 +1,35 @@
 class Dcr < Formula
   desc "Cargo-like utility to manage C/C++ projects"
   homepage "https://dcr.dexoron.su"
-  version "0.9.1"
+  version "0.9.5"
 
   on_macos do
     on_intel do
-      url "https://github.com/dexoron/dcr/releases/download/v0.9.1/dcr-x86_64-apple-darwin-0.9.1"
-      sha256 "d5b1a63e57f09c8cc0150336876b38e3adc7fdf3751d85b740cce46787db78bf"
+      url "https://github.com/dexoron/dcr/releases/download/v0.9.5/dcr-x86_64-apple-darwin-0.9.5"
+      sha256 "e7c9fe66c6b5975e94937d1bd9d6ece91417fce0777c59a3d84e02dafa018eb9"
     end
 
     on_arm do
-      url "https://github.com/dexoron/dcr/releases/download/v0.9.1/dcr-aarch64-apple-darwin-0.9.1"
-      sha256 "c0ecd6d0bbc8d79dc7df89c4397f0a8064017e9602e988b808b025169f5ebfd4"
+      url "https://github.com/dexoron/dcr/releases/download/v0.9.5/dcr-aarch64-apple-darwin-0.9.5"
+      sha256 "a6bf11b9a7c6948a2d5e6fc2194dd522e1b7170bce45c2bb68904324d6f516ef"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dexoron/dcr/releases/download/v0.9.1/dcr-x86_64-unknown-linux-gnu-0.9.1"
-      sha256 "65514809a95891306e4e2a659de74f335f1f4221c76a2c95573cdc71ab921b1d"
+      url "https://github.com/dexoron/dcr/releases/download/v0.9.5/dcr-x86_64-unknown-linux-gnu-0.9.5"
+      sha256 "4958e0ea0435e26cca0f1b098387d902f16b0af3024689b7222cca51feb996bf"
     end
 
     on_arm do
-      url "https://github.com/dexoron/dcr/releases/download/v0.9.1/dcr-aarch64-unknown-linux-gnu-0.9.1"
-      sha256 "f98466a1844e58b21511c0d0e86e48cf787c5fee68d018e6d2810427dc386ae9"
+      url "https://github.com/dexoron/dcr/releases/download/v0.9.5/dcr-aarch64-unknown-linux-gnu-0.9.5"
+      sha256 "f4190a9a553efdc3038cb86fb5e5ab0483daa6f778fbe0834e0ac317ce4a9ad4"
     end
   end
 
   resource "man-pages" do
-    url "https://github.com/dexoron/dcr/releases/download/v0.9.1/dcr-man-pages-0.9.1.tar.gz"
-    sha256 "4b98b0f698d274c611c91607098faef6d97a350e5b83580e165fad7551c52387"
+    url "https://github.com/dexoron/dcr/releases/download/v0.9.5/dcr-man-pages-0.9.5.tar.gz"
+    sha256 "5406331b48e7edc61c3f5da2ebdeca72c27e82c411eaa8823a7fc943958fb1e9"
   end
 
   def install
